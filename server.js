@@ -1,16 +1,30 @@
 
-var express = require('express');
-
-var app  = express()
+var express = require('express')
+  , app = express()
   , port = 3000;
+
+
+/**
+ * Give us nice, JSON request bodies.
+ */
 
 app.use(express.bodyParser());
 
-app.post('/webhooks/analytics', function(req, res){
+
+/**
+ * Add a route for our webhook POST requests.
+ */
+
+app.post('/webhooks/analytics', function (req, res) {
   console.log(req.body);
   res.end();
 });
 
-app.listen(port);
 
-console.log('Server is running on port: ' + port);
+/**
+ * Listen.
+ */
+
+app.listen(port, function () {
+  console.log('Server is listening on port ' + port + '...');
+});
