@@ -8,11 +8,17 @@
   1. Clone the repository: `git clone git@github.com:segmentio/webhooks-example.git`
   2. Download and install [Node.js](http://nodejs.org/).
   3. Run `make` from the example directory to run the server on port `3000`.
-  4. Enable webhooks for your project in [Segment.io](https://segment.io/). You'll want to enter your url in the form "http://my_ip_address:3000/webhooks/analytics". If you have a named server, you can use that instead.
+  4. Enable webhooks for your project in [Segment.io](https://segment.io/). You'll want to enter your url in the form "http://my_ip_address:3000/webhooks/analytics".
+
+---
+
+  ![Enter your webhooks information](https://s3.amazonaws.com/segmentio/github/images/webhooks-example/webhooks-sheet.png)
+
+---
 
   ![Enable the webhooks pane](https://s3.amazonaws.com/segmentio/github/images/webhooks-example/webhooks-pane.png)
 
-  ![Enter your webhooks information](https://s3.amazonaws.com/segmentio/github/images/webhooks-example/webhooks-sheet.png)
+---
 
   You should see events start logging to your console as you call `analytics.track()`;
 
