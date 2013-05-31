@@ -1,19 +1,31 @@
 
 # webhook-example
 
-  An example server for receiving [Segment.io](https://segment.io/) webhook events.
+  An example server for receiving [Segment.io webhook events](https://segment.io/docs/integrations/webhooks).
 
 ## Getting Started
 
-  1. Clone the repository: `git clone
+  1. Clone the repository: `git clone git@github.com:segmentio/webhooks-example.git`
   2. Download and install [Node.js](http://nodejs.org/).
-  3. Run `make` from the directory to run the server on port `3000`.
+  3. Run `make` from the example directory to run the server on port `3000`.
+  4. Enable webhooks for your project in [Segment.io](https://segment.io/). You'll want to enter your url in the form "http://my_ip_address:3000/webhooks/analytics". If you have a named server, you can use that instead.
 
-  Then run `make`
+  ![Enable the webhooks pane](https://s3.amazonaws.com/segmentio/github/images/webhooks-example/webhooks-pane.png)
 
-  Your server will be running on port `3000`.
+  ![Enter your webhooks information](https://s3.amazonaws.com/segmentio/github/images/webhooks-example/webhooks-sheet.png)
+
+  You should see events start logging to your console as you call `analytics.track()`;
 
 
+## Port Forwarding
+
+  If you're using a router, it's likely that you'll need to enable port forwarding to receive calls from our servers.
+
+  To do this, make sure you are pointing your router to your own internal ip on the same port.
+
+## Help
+
+  If you have any questions, you can find us on freenode in `#segmentio`, on the live chat on our [site](https://segment.io/) or at friends@segment.io.
 
 
 ## License
