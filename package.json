@@ -4,6 +4,7 @@
   "description": "An example server for receiving segment.io webhooks",
   "repository": "git://github.com/segmentio/webhooks-example.git",
   "keywords": [
+    "analytics",
     "segmentio",
     "segment.io",
     "webhooks"
@@ -12,5 +13,5 @@
   "dependencies": {
     "express": "~3.2.5"
   },
-  "main": "index"
+  "main": "server.js"
 }
