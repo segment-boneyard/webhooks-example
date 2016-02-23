@@ -1,7 +1,7 @@
 
 # webhooks-example
 
-  An example server for receiving [Segment.io webhook requests](https://segment.io/docs/integrations/webhooks).
+  An example server for receiving [Segment webhook requests](https://segment.com/docs/integrations/webhooks).
 
 
 ## Getting Started
@@ -9,7 +9,7 @@
   1. Clone the repository with `git clone git@github.com:segmentio/webhooks-example.git`.
   2. Download and install [Node.js](http://nodejs.org/).
   3. Run `make` from the example directory to run the server on port `3000`.
-  4. Enable webhooks for your project in [Segment.io](https://segment.io/). You'll want to enter your url in the form `http://YOUR_IP_ADDRESS:3000/webhooks/analytics`.
+  4. Enable webhooks for your project in [Segment.io](https://segment.com/). You'll want to enter your url in the form `http://YOUR_IP_ADDRESS:3000/webhooks/analytics`.
 
   ![Enter your webhooks URL.](https://s3.amazonaws.com/segmentio/github/images/webhooks-example/webhooks-sheet.png)
 
@@ -28,7 +28,7 @@
 
 ## License (MIT)
 
-  Copyright (c) 2013 Segment.io &lt;friends@segment.io&gt;
+  Copyright (c) 2016 Segment.io &lt;friends@segment.com&gt;
 
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
