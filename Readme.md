@@ -23,7 +23,7 @@
 
 ## Help
 
-  If you have any questions, you can find us on freenode in `#segmentio`, on the live chat on our [site](https://segment.com/) or at friends@segment.io.
+  If you have any questions, you can find us on freenode in `#segmentio`, on the live chat on our [site](https://segment.com/) or at friends@segment.com.
 
 
 ## License (MIT)
